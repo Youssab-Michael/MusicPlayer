@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:musicplayer/Screens/settings_Page.dart';
+import 'package:musicplayer/Screens/settings_page.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -19,19 +19,19 @@ class MyDrawer extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 25, left: 25),
             child: ListTile(
-              title: Text("Home"),
-              leading: Icon(Icons.home),
+              title: const Text("Home"),
+              leading: const Icon(Icons.home),
               onTap: () => Navigator.pop(context),
             ),
           ),
           Padding(
             padding: const EdgeInsets.only(left: 25),
             child: ListTile(
-              title: Text("Settings"),
-              leading: Icon(Icons.settings),
+              title: const Text("Settings"),
+              leading: const Icon(Icons.settings),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.push(context, MaterialPageRoute(builder: (context) => SettingsPage(),),
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const SettingsPage(),),
                 );
               },
             ),
