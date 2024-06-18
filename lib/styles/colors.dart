@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 // light
-Color backgroundlight = Colors.grey.shade300;
-Color primarylight = Colors.grey.shade500;
-Color secondarylight = Colors.grey.shade200;
-Color inverseprimarylight = Colors.grey.shade900;
+Color backgroundLight = Colors.grey.shade300;
+Color primaryLight = Colors.grey.shade500;
+Color secondaryLight = Colors.grey.shade200;
+Color inversePrimaryLight = Colors.grey.shade900;
+Color whiteLight = Colors.white;
+Color greyLight = Colors.grey.shade500;
 // dark
-Color backgrounddark = Colors.grey.shade900;
-Color primarydark = Colors.grey.shade600;
-Color secondarydark = Colors.grey.shade800;
-Color inverseprimarydark = Colors.grey.shade300;
+Color backgroundDark = Colors.grey.shade900;
+Color primaryDark = Colors.grey.shade600;
+Color secondaryDark = Colors.grey.shade800;
+Color inversePrimaryDark = Colors.grey.shade300;
+Color whiteDark = Colors.grey.shade500;
+Color greyDark = Colors.grey.shade800;

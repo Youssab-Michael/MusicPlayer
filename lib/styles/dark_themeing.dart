@@ -3,9 +3,11 @@ import 'package:musicplayer/styles/colors.dart';
 
 ThemeData darkMode = ThemeData(
     colorScheme: ColorScheme.dark(
-        surface: backgrounddark,
-        primary: primarydark,
-        secondary: secondarydark,
-        inversePrimary: inverseprimarydark
+        surface: backgroundDark,
+        primary: primaryDark,
+        secondary: secondaryDark,
+        inversePrimary: inversePrimaryDark,
+        outline: whiteDark,
+        outlineVariant: greyDark,
     )
 );

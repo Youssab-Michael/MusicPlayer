@@ -16,11 +16,11 @@ class ImageBox extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
           boxShadow: [
             BoxShadow(
-                color: Colors.grey.shade500,
+                color: Theme.of(context).colorScheme.outlineVariant,
                 blurRadius: 15,
                 offset: const Offset(4, 4)),
             BoxShadow(
-                color: Colors.white,
+                color: Theme.of(context).colorScheme.outline,
                 blurRadius: 15,
                 offset: Offset(-4, -4))
           ]),
