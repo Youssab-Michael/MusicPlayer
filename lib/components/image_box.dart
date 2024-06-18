@@ -22,7 +22,7 @@ class ImageBox extends StatelessWidget {
             BoxShadow(
                 color: Theme.of(context).colorScheme.outline,
                 blurRadius: 15,
-                offset: Offset(-4, -4))
+                offset: const Offset(-4, -4))
           ]),
       padding: const EdgeInsets.all(12),
       child: child,

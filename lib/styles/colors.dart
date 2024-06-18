@@ -11,5 +11,5 @@ Color backgroundDark = Colors.grey.shade900;
 Color primaryDark = Colors.grey.shade600;
 Color secondaryDark = Colors.grey.shade800;
 Color inversePrimaryDark = Colors.grey.shade300;
-Color whiteDark = Colors.grey.shade500;
-Color greyDark = Colors.grey.shade800;
+Color whiteDark = Colors.grey.shade800;
+Color greyDark = Colors.black;
